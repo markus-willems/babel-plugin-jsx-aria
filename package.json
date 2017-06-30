@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com:markus-willems/babel-plugin-jsx-aria.git"
+    "url": "https://github.com/markus-willems/babel-plugin-jsx-aria.git"
   },
   "bugs": {
     "url": "https://github.com/markus-willems/babel-plugin-jsx-aria/issues"
