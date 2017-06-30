@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-jsx-aria",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Babel plugin for JSX which transforms camel cased ARIA attributes to kebap cased attributes",
   "main": "lib/index.js",
   "repository": {
