@@ -1,0 +1,37 @@
+{
+  "name": "babel-plugin-jsx-aria",
+  "version": "1.0.0",
+  "description": "Babel plugin for JSX which transforms camel cased ARIA attributes to kebap cased attributes",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:markus-willems/babel-plugin-jsx-aria.git"
+  },
+  "bugs": {
+    "url": "https://github.com/markus-willems/babel-plugin-jsx-aria/issues"
+  },
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "babel src -d lib",
+    "test": "jest -u",
+    "prepublish": "yarn run clean && yarn run build"
+  },
+  "keywords": [
+    "babel",
+    "aria",
+    "a11y",
+    "jsx"
+  ],
+  "author": "Markus Willems <mail@markus-willems.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^20.0.4",
+    "react": "^15.6.1",
+    "react-test-renderer": "^15.6.1",
+    "rimraf": "^2.6.1"
+  }
+}
