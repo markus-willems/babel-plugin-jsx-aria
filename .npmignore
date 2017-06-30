@@ -1,0 +1,8 @@
+node_modules
+__test__
+src
+.gitignore
+.travis.yml
+*.log
+yarn.lock
+.babelrc
